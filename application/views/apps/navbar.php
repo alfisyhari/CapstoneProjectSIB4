@@ -55,6 +55,13 @@
         <li><a class="dropdown-item" href="<?=base_url('index.php/App')?>">Home</a></li>
         <li><a class="dropdown-item" href="<?=base_url('index.php/App/news')?>">News</a></li>
         <li><a class="dropdown-item" href="<?=base_url('index.php/App/weather')?>">Weather</a></li>
+        <?php
+          if ($this->session->userdata('role') == 'ADMIN') {?>
+          
+          <li><a class="dropdown-item" href="<?=base_url('index.php/App/userManagement')?>">User Management</a></li>
+          <?php
+          }
+          ?>
         <li>
           <hr class="dropdown-divider" />
         </li>

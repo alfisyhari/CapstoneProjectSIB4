@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/marin/';
-// $config['base_url'] = 'https://fbe6-114-4-82-94.ngrok-free.app/alfiApp/';
+// $config['base_url'] = 'http://localhost/marin/';
+$config['base_url'] = 'https://marin-indonesia.000webhostapp.com/';
 
 /*
 |--------------------------------------------------------------------------

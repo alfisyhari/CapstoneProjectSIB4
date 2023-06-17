@@ -74,7 +74,7 @@
     <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha384-RFZC58YeKApoNsIbBxf4z6JJXmh+geBSgkCQXFyh+4tiFSJmJBt+2FbjxW7Ar16M" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script type="text/javascript" src="data/id.js"></script>
+    <script type="text/javascript" src="<?=base_url()?>assets/data/id.js"></script>
     <script src="<?=base_url()?>assets/scripts/home.js"></script>
     <script src="<?=base_url()?>assets/scripts/navigation.js"></script>
     <script src="<?=base_url()?>assets/scripts/weather-widget.js" type="module"></script>

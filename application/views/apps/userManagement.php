@@ -79,12 +79,13 @@
                         </div>
                     </div>
                       </div>
+                      <div class="table-responsive">
                         <table class="table table-striped">
                             <thead>
                                 <tr>
                                     <th>NO</th>
                                     <th>NAME</th>
-                                    <th>USERNMAE</th>
+                                    <th>USERNAME</th>
                                     <th>PHONE</th>
                                     <th>GENDER</th>
                                     <th>ROLE</th>
@@ -101,8 +102,10 @@
                                     <td><?= $key['gender'] ?></td>
                                     <td><?= $key['role'] ?></td>
                                     <td>
+                                        <div class="d-flex">
                                         <button type="button" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#updateModal<?=$key['id']?>">Update</button>
-                                        <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal<?=$key['id']?>">Delete</button>
+                                        <button type="button" class="btn btn-sm btn-danger ms-2" data-bs-toggle="modal" data-bs-target="#deleteModal<?=$key['id']?>">Delete</button>
+                                        </div>
                                     </td>
 
                                 </tr>
@@ -112,6 +115,7 @@
                                     ?>
                             </tbody>
                         </table>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-    <?php
+<?php
     defined('BASEPATH') OR exit('No direct script access allowed');
 
     class App extends CI_Controller {
@@ -47,6 +47,7 @@
                     'username' => $this->input->post('username'),
                     'password' => $this->input->post('password'),
                     'gender' => $this->input->post('gender'),
+                    'role' => $this->input->post('role'),
                     'phone' => $this->input->post('phone')
                 );
 

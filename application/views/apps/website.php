@@ -54,7 +54,6 @@
             <a class="nav-link" href="#berita">Berita</a>
             <a class="nav-link" href="#tentang">Tentang</a>
             <a class="nav-link" href="#kontak">Kontak</a>
-            <a class="nav-link" href="#trial">Trial</a>
           </div>
         </div>
       </div>
@@ -150,7 +149,7 @@
               <div class="bg-white rounded shadow py-5 px-4">
                 <img src="<?=base_url()?>assets/image/alfi.jfif" alt="Alfisyhari" class="team-photo img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
                 <h5 class="mb-0">Alfisyhari</h5>
-                <span class="small text-uppercase text-muted">UI/UX</span>
+                <span class="small text-uppercase text-muted">Front End Developer</span>
                 <ul class="social mb-0 list-inline mt-3">
                   <li class="list-inline-item">
                     <a href="https://github.com/alfisyhari" target="_blank" class="social-link"><i class="fa-brands fa-github"></i></a>
@@ -194,7 +193,7 @@
               <div class="bg-white rounded shadow py-5 px-4">
                 <img src="<?=base_url()?>assets/image/ramin.jpg" alt="Moch. Ramin" class="team-photo img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
                 <h5 class="mb-0">Moch. Ramin</h5>
-                <span class="small text-uppercase text-muted">TBA</span>
+                <span class="small text-uppercase text-muted">Support System</span>
                 <ul class="social mb-0 list-inline mt-3">
                   <li class="list-inline-item">
                     <a href="#"><i class="fa-brands fa-github"></i></a>
@@ -216,7 +215,7 @@
               <div class="bg-white rounded shadow py-5 px-4">
                 <img src="<?=base_url()?>assets/image/arif.jpg" alt="Muhammad Arif" class="team-photo img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
                 <h5 class="mb-0">Muhammad Arif</h5>
-                <span class="small text-uppercase text-muted">TBA</span>
+                <span class="small text-uppercase text-muted">Support System</span>
                 <ul class="social mb-0 list-inline mt-3">
                   <li class="list-inline-item">
                     <a href="#"><i class="fa-brands fa-github"></i></a>
@@ -310,21 +309,18 @@
               <li><a href="#berita">Berita</a></li>
               <li><a href="#tentang">Tentang</a></li>
               <li><a href="#kontak">Kontak</a></li>
-              <li><a href="#trial">Trial</a></li>
             </ul>
           </div>
           <div class="col-lg-2 col-6 footer-links">
             <h4>Get Started</h4>
             <ul>
-              <li><a href="login.html">Sign In</a></li>
-              <li><a href="register.html">Sign Up</a></li>
+              <li><a href="<?=base_url('index.php/login')?>">Sign In</a></li>
+              <li><a href="<?=base_url('index.php/register')?>">Sign Up</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Kontak Kami</h4>
             <p>
-              Kampung Bacang No. 61,<br />
-              Kelurahan Tebet Barat, Kecamatan Tebet<br />
               Jakarta Selatan<br />
               DKI Jakarta <br />
               <strong>Email:</strong> infomarinteams@gmail.com<br />
