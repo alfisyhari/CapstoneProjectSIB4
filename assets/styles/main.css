@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background-color: white;
+}
+
+#card a {
+  min-height: 44px;
+}
+
+#hero {
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+#hero p {
+  font-size: 20px;
+}
+
+#hero a {
+  font-weight: 700;
+  border-radius: 37px;
+  padding: 10px 36px 10px 36px;
+}
+
+#card {
+  margin-top: 20px;
+}
+
+#kontak img[alt='Contact Image'] {
+  display: none;
+}
+
+#keunggulan .row {
+  width: 100%;
+}
+
+.card-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}  
+
+.form {
+  margin: 2rem 0;
+  color: black;
+}
+
+.btn-yellow,
+.btn-yellow:hover {
+  background-color: #ffa62b;
+}
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.sections-bg-gray {
+  background-color: #f6f6f6;
+  width: 100%;
+}
+
+.sections-bg-navy {
+  background-color: #174063;
+  width: 100%;
+  color: white;
+}
+
+.sections-header p {
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  max-width: 864px;
+  margin-top: 20px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 20px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  height: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.box:hover {
+  background-color: #e3e3e3;
+}
+
+.icon-left {
+  margin-right: 20px;
+  background-color: #174063;
+  padding: 20px;
+  color: white;
+  font-size: 1.7rem;
+}
+
+.accordion-item {
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.accordion-button {
+  padding: 20px;
+  font-weight: 600;
+}
+
+input[type='text'],
+input[type='email'] {
+  min-height: 44px;
+}
+
+.box-shadow {
+  box-shadow: -1px 1px 14px -2px rgba(0, 0, 0, 0.51);
+}
+
+.social {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.social a {
+  color: #a2a2a2;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bbbbbb;
+}
+
+.team-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* footer */
+
+.footer {
+  font-size: 14px;
+  padding: 50px 0;
+}
+
+.footer .footer-info .footer-title {
+  line-height: 0;
+  margin-bottom: 25px;
+}
+
+.footer .footer-info .footer-title img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.footer .footer-info .footer-title span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.footer .footer-info p {
+  font-size: 14px;
+}
+
+.footer .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.footer .social-links a:hover {
+  border-color: #174063;
+  color: #174063;
+}
+
+.footer h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer .footer-links {
+  margin-bottom: 30px;
+}
+
+.footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-links ul i {
+  padding-right: 2px;
+  color: rgba(255, 0, 0, 0.8);
+  font-size: 12px;
+  line-height: 0;
+}
+
+.footer .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.footer .footer-links ul a {
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+  font-weight: 600;
+  color: #737373;
+}
+
+.footer .footer-links ul a:hover {
+  color: black;
+}
+
+.footer .footer-contact p {
+  line-height: 26px;
+}
+
+.footer .copyright {
+  text-align: center;
+}
+
+.footer .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  margin-right: 10px;
+  color: black;
+}

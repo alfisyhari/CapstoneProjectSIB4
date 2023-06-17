@@ -1,0 +1,92 @@
+@media screen and (min-width: 500px) {
+  #form-login {
+    width: 450px;
+  }
+
+  #navMobile {
+    display: none;
+  }
+
+  #navDrawer, #footer {
+    display: block !important;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #newsBody .card-title {
+    height: 96px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .form {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #nav {
+    display: flex !important;
+  }
+  #footer{
+    left: 72px;
+  }
+
+  #navDrawer {
+    display: none !important;
+  }
+
+  #kontak .row {
+    margin: 0 auto;
+  }
+
+  #kontak img[alt='Contact Image'] {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .form {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .weather-widget {
+    display: block;
+  }
+
+  #weatherInputCity {
+    max-width: 1000px;
+  }
+
+  #weatherInputCity > div, #news > div {
+    margin-left: 70px;
+  }
+
+  #weatherCardContainer {
+    max-width: 1200px;
+  }
+
+  #weatherCardContainer > div {
+    margin-left: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #newsBody .card-title {
+    height: 96px;
+  }
+
+  .alert,
+  #kontak .row {
+    width: 80%;
+  }
+
+  #form-login {
+    width: 700px;
+  }
+
+  .p-6 {
+    padding: 100px;
+  }
+}
